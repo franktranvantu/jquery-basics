@@ -1,10 +1,11 @@
-// $('#flashMessage').hide();
-// $('#flashMessage').slideDown(1000);
-// $('#flashMessage').delay(2000);
-// $('#flashMessage').slideUp();
-
 $('#flashMessage')
   .hide()
   .slideDown(1000)
   .delay(2000)
   .slideUp();
+
+const title = 'My first blog post';
+const content = 'This is my <strong>first</strong> post!';
+
+$('#blogTitlePreview').text(title);
+$('#blogContentPreview').html(content);
