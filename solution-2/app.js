@@ -1,3 +1,7 @@
-// You've just learned how to use the jQuery methods text() and html().
-// Use the appropriate jQuery method to set the contents of the $('.profile-text') element to "I am a web developer".
-$('.profile-text').text('I am a web developer');
+// Inside the click handler in app.js:
+// Select the heading text with the class of .profile-name
+// Use jQuery’s text() method to set the contents of .profile-name to the value of the input field
+$('button').click(function() {
+  const newName = $('#name-input').val();
+  $('.profile-name').text(newName);
+});
