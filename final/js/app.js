@@ -7,7 +7,7 @@ $('.spoiler').append($button);
 // Hide the spoiler text
 $('.spoiler span').hide();
 // When the button is clicked
-$('.spoiler button').click(function () {
+$('.spoiler button').on('click mouseleave', function () {
   // Show the spoiler text
   $('.spoiler span').show();
   // Hide the "Reveal Spoiler" button
