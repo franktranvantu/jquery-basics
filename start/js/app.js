@@ -1,9 +1,9 @@
 // When the button is clicked
-$('.spoiler').on('click', 'button', function () {
+$('.spoiler').on('click', 'button', function (event) {
   // Show the spoiler text
-  $('.spoiler span').show();
+  // $('.spoiler span').show();
   // Hide the "Reveal Spoiler" button
-  $('.spoiler button').hide();
+  $(event.target).hide();
 });
 
 // Create the "Reveal Spoiler" button
