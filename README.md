@@ -1,0 +1,1 @@
+Use jQuery methods like css(), addClass() and removeClass() to change the look of DOM elements.
