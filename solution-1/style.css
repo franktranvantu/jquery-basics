@@ -1,4 +1,12 @@
+.submit-btn {
+    border: none;
+    background: green;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
 .disabled {
-    cursor: not-allowed;
-    pointer-events: none;
+    background: lightgrey;
+    color: grey;
 }
